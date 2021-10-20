@@ -1,0 +1,1 @@
+python run_inference.py --posenet_name 'videopose' --keypoints gt --evaluate ./checkpoint/poseaug/videopose/gt/poseaug/ckpt_best_dhp_p1.pth.tar --random_seed 0 --dropout 0 --np_path $1
