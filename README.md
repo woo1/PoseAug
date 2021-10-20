@@ -5,13 +5,13 @@
 
 ## Inference
 ### 1. Prepare data
-- prepare npz data using openpose json output
+- prepare npz data using openpose json output<br>
 `
 python prepare_data.py --kp_json_path OPENPOSE_JSON_PATH --img_path IMG_PATH
 `
 
 ### 2. Run
-- Run inference code and save result image in ./samples
+- Run inference code and save result image in ./samples<br>
 `
 sh run.sh NPZ_FILE_PATH
 `
